@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Balsamiq+Sans&display=swap');
+body {
+    text-align: center;
+    background-color: paleturquoise;
+    font-family: 'Balsamiq Sans', cursive;
+    color: darkgreen;
+    font-size: 25px;
+}
+
+h1 {
+    margin-top: 5%;
+    font-family: 'Acme', sans-serif;
+    color: darkred;
+}
+
+ul > li {
+    list-style: none;
+    cursor: pointer;
+    border: 1px solid darkgray;
+    max-width: 150px;
+    margin: 2% auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+li:hover {
+    box-shadow: 1px 1px 2px black, 0 0 10px blue, 0 0 5px darkblue;
+}
+
+h3, h2 {
+    margin: 2%;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: darkgoldenrod;
+}
+.greet {
+    background-color: darkred;
+    color: lavender;
+    width: fit-content;
+    border-radius: 20px;
+    margin: 5% auto;
+    padding: 2%;
+}
+
+.back {
+   margin-top: 2%;
+}
+
+img {
+    border-radius: 5%;
+    box-shadow: 5px 5px lightslategray;
+}
+
+.pika {
+    all: unset;
+    width: 20%;
+}
+.pikachu {
+    all: unset;
+    width: 20%;
+    float: left;
+    margin-left: 2%;
+}

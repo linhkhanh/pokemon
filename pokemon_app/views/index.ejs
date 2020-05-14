@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pokemon</title>
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="/app-index.js"></script>
+        <link rel ="stylesheet" type ="text/css" href ="/main.css" />
+    </head>
+    <body>
+        <h1>Great Pokemons</h1>
+        <img class="pikachu">
+        <ul>
+            <% for(let i = 0; i < pokemons.length; i++) { %>
+                <li>
+                    <a href="/pokemon/<%=i%>"><%=pokemons[i].name.charAt(0).toUpperCase() + pokemons[i].name.slice(1) %></a>
+                </li>
+            <% } %>
+        </ul>
+        <div class="back"><a href="http://localhost:3000/">&#10094;&#10094; Back</a></div>
+    </body>
+</html>
